@@ -1,0 +1,21 @@
+{
+  "name": "sample-fbproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createConfigs": "node index.js create-configs",
+    "createLDConfigs": "node index.js create-ldconfigs",
+    "createFlags": "node index.js create-flags",
+    "deleteFlags": "node index.js delete-flags"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "firebase": "^9.12.1",
+    "firebase-admin": "^11.2.0",
+    "google-auth-library": "^8.6.0",
+    "launchdarkly-api": "github:launchdarkly/api-client-javascript"
+  }
+}
