@@ -14,7 +14,7 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "firebase": "^9.12.1",
-    "firebase-admin": "^11.2.0",
+    "firebase-admin": "^11.4.1",
     "google-auth-library": "^8.6.0",
     "launchdarkly-api": "github:launchdarkly/api-client-javascript"
   }
